@@ -14,27 +14,27 @@ global.authFile = `MysticSession`;
 global.isBaileysFail = false
 
 global.owner = [
-  ['5218134698139', 'Thoru Bot', true],
-  ['5218134698139', 'Colaborador', true],
-  ['5218134698139', 'Streaming Thoru', true],
+  ['5217775373472', '₰᭄The Angels', true],
+  ['5218336105471', 'Colaborador', true],
+  ['5217775373472', 'fati', true],
 ];
 
-global.suittag = ['5218134698139'];
-global.prems = ['5218134698139'];
+global.suittag = ['5218336105471'];
+global.prems = ['5218336105471'];
 
 // API
 global.BASE_API_DELIRIUS = "https://deliriusapi-official.vercel.app";
 
-global.packname = 'Thoru bot';
-global.author = 'Thoru bot';
-global.wm = 'Thoru bot';
+global.packname = '₰᭄The Angels';
+global.author = '₰᭄The Angels';
+global.wm = '₰᭄The Angels';
 global.idioma = 'es';
-global.ig = 'tilin.ff.23';
-global.etiqueta = 'activate bb ponte vrg';
-global.emojietiqueta = '🩷';
-global.titulowm = 'Thoru Bot';
-global.titulowm2 = `Thoru Bot`
-global.igfg = 'Thoru Bot';
+global.ig = '@tilin.ff.23';
+global.etiqueta = 'Ey Activate te habla ₰᭄The Angels';
+global.emojietiqueta = '😝';
+global.titulowm = '₰᭄The Angels';
+global.titulowm2 = `₰᭄The Angels`
+global.igfg = '₰᭄The Angels';
 global.wait = '*_[ ⏳ ] Cargando..._*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -54,12 +54,12 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nThoru Bot`;
-global.gt = 'Thoru Bot';
-global.mysticbot = 'Thoru Bot';
-global.channel = 'https://chat.whatsapp.com/LGf5K7faVOELqy24V5NrPR';
-global.md = 'https://chat.whatsapp.com/LGf5K7faVOELqy24V5NrPR';
-global.mysticbot = 'https://chat.whatsapp.com/LGf5K7faVOELqy24V5NrPR';
+global.wm2 = `${dia} ${fecha}\n₰᭄The Angels`;
+global.gt = '₰᭄The Angels';
+global.mysticbot = '₰᭄The Angels';
+global.channel = 'https://chat.whatsapp.com/K1tuGp5yr0L8KLzQWJyUwD';
+global.md = 'https://chat.whatsapp.com/K1tuGp5yr0L8KLzQWJyUwD';
+global.mysticbot = 'https://chat.whatsapp.com/K1tuGp5yr0L8KLzQWJyUwD';
 global.waitt = '*_[ ⏳ ] Cargando..._*';
 global.waittt = '*_[ ⏳ ] Cargando..._*';
 global.waitttt = '*_[ ⏳ ] Cargando..._*';
