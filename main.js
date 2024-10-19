@@ -131,7 +131,7 @@ const connectionOptions = {
     logger: Pino({ level: 'silent' }),
     printQRInTerminal: opcion === '1' || methodCodeQR,
     mobile: MethodMobile,
-    browser: opcion === '1' ? ['Thoru bot', 'Safari', '2.0.0'] : methodCodeQR ? ['Thoru bot', 'Safari', '2.0.0'] : ['Ubuntu', 'Chrome', '20.0.04'],
+    browser: opcion === '1' ? ['₰᭄The Angels', 'Safari', '2.0.0'] : methodCodeQR ? ['₰᭄The Angels', 'Safari', '2.0.0'] : ['Ubuntu', 'Chrome', '20.0.04'],
     auth: {
         creds: state.creds,
         keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: 'fatal' }).child({ level: 'fatal' })),
@@ -202,7 +202,7 @@ conn.logger.info(`[ ℹ️ ] Cargando...\n`);
 if (!opts['test']) {
   if (global.db) {
     setInterval(async () => {
-      if (global.db.data) await global.db.write();
+      if (global.db.data) await global.db.write(); 
       if (opts['autocleartmp'] && (global.support || {}).find) (tmp = [os.tmpdir(), 'tmp', 'jadibts'], tmp.forEach((filename) => cp.spawn('find', [filename, '-amin', '3', '-type', 'f', '-delete'])));
     }, 30 * 1000);
   }
